@@ -76,3 +76,37 @@ valentina@MacBook-Air-Salavdi modo-energy-price-spike-predictor % tree
     └── model.py
 
 4 directories, 7 files
+
+## How to Run Locally
+Install dependencies: pip install -r requirements.txt
+Run the Streamlit dashboard: streamlit run app.py
+The dashboard will open at: http://localhost:8501
+
+---
+
+## Insights
+
+Initial analysis suggests:
+
+- Electricity prices increase significantly during high demand periods.
+- Extreme price spikes occur when demand reaches peak system levels.
+- Detecting these periods early may help traders and asset operators anticipate volatility.
+
+  ---
+
+  ## Possible Extensions
+
+ Future improvements could include:
+
+- Price forecasting models
+- Battery arbitrage simulation
+- Renewable generation impact analysis
+- Real-time market data integration
+
+---
+
+## Author
+
+Valentina Kiyungi
+
+
