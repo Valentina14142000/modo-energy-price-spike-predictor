@@ -61,29 +61,6 @@ Key indicators such as:
 
 ---
 
-## Project Structure
-valentina@MacBook-Air-Salavdi modo-energy-price-spike-predictor % tree
-.
-├── README.md
-├── app.py
-├── data
-│   └── ercot_data.csv
-├── requirements.txt
-└── src
-    ├── __pycache__
-    │   └── analysis.cpython-312.pyc
-    ├── analysis.py
-    └── model.py
-
-4 directories, 7 files
-
-## How to Run Locally
-Install dependencies: pip install -r requirements.txt
-Run the Streamlit dashboard: streamlit run app.py
-The dashboard will open at: http://localhost:8501
-
----
-
 ## Insights
 
 Initial analysis suggests:
